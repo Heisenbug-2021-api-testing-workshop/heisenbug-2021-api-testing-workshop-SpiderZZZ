@@ -1,0 +1,26 @@
+{
+  "name": "heisenbug-2021-api-testing-workshop-spiderzzz",
+  "version": "1.0.0",
+  "description": "API testing project",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heisenbug-2021-api-testing-workshop/heisenbug-2021-api-testing-workshop-SpiderZZZ.git"
+  },
+  "author": "Yurij Ryagin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Heisenbug-2021-api-testing-workshop/heisenbug-2021-api-testing-workshop-SpiderZZZ/issues"
+  },
+  "homepage": "https://github.com/Heisenbug-2021-api-testing-workshop/heisenbug-2021-api-testing-workshop-SpiderZZZ#readme",
+  "dependencies": {
+    "@types/mocha": "*",
+    "@types/node": "^14.14.37",
+    "got": "^11.8.2",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
