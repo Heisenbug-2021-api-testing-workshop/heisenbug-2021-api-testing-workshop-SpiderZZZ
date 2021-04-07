@@ -1,3 +1,7 @@
+#Allure
+allure-results/
+allure-report/
+
 # Temp
 .temp/
 
@@ -105,3 +109,4 @@ dist
 
 # TernJS port file
 .tern-port
+
